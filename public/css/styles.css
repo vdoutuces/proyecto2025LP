@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: auto;
+  padding: 0;
+  
+}
+
+.container{
+  max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto;
+  padding: 20px;
+
+
+}
+
+.imgban{
+
+width: 100%;
+height: 120px; 
+}
+
+
+.tbform {text-align: right;
+  padding: 5;
+  border-radius: 3;
+
+
+
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.carousel {
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 100%;
+    float: left;
+  }
+  
+  img{
+    width: 100%;
+  }
+  table {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+.paginacion{
+
+  text-align: center;
+}
+  .boton_centrado {
+    margin: 0 auto;
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    padding: 5px 10px; /* Añade espacio interno al botón */
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Elimina el borde por defecto */
+    border-radius: 5px; /* Redondea las esquinas */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
